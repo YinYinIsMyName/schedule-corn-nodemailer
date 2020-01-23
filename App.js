@@ -44,8 +44,8 @@ let transporter = nodemailer.createTransport({
 
 })
 let mailOptions = {
-    from: 'yinyinchanxo@gmail.com',
-    to: 'yinyinhtun2792@gmail.com',
+    from: 'youremail@gmail.com',//comes from .env file
+    to: 'anotheremail@gmail.com',
     subject: 'Email sending testing',
     html: '<h3>Send Greeting Mail</h3><strong>sending from someone</strong>'
 
